@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col md:flex-row items-center md:gap-4" aria-label="profile" id="home">
+        <section class="wrapper" aria-label="profile" id="home">
         <div class="flex flex-col gap-3 items-center justify-center">
             <img class="w-72 md:w-56 rounded-full border-4 border-solid border-secondary p-1"
                 src="https://avatars.githubusercontent.com/u/47012804?v=4" alt="">
