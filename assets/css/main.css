@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .wrapper {
-    @apply flex flex-col md:flex-row items-center md:gap-4 min-h-screen justify-center;
+    @apply flex flex-col max-w-7xl md:flex-row md:gap-4  md:mx-auto min-h-screen items-center justify-center;
 }
