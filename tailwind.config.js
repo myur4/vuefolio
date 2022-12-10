@@ -17,7 +17,7 @@ module.exports = {
         mytheme: {
           "primary": "#003d75",
           "secondary": "#ffdcd6",
-          "accent": "#1FB2A6",
+          "accent": "#77a9cf",
           "neutral": "#4d7798",
           "base-100": "#ffffeb",
           "info": "#3ABFF8",
@@ -28,5 +28,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), require('taos/plugin')],
 }
