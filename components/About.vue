@@ -1,5 +1,5 @@
 <template>
-    <section class="wrapper">
+    <section class="wrapper" id="about" aria-label="about">
         <div class="flex flex-col gap-8">
             <h1 class="mb-3 underline decoration-2 decoration-secondary text-4xl font-extrabold text-primary text-center md:text-left">About Me</h1>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl">

@@ -1,5 +1,5 @@
 <template>
-    <section class="wrapper">
+    <section class="wrapper" id="skills" aria-label="skills">
         <div class="flex flex-col gap-2 md:w-1/2">
             <h1
                 class="text-4xl text-center md:text-left text-primary font-extrabold underline decoration-secondary decoration-[3px]">
@@ -13,10 +13,7 @@
                         <span class="badge badge-secondary badge-sm">Intermediary</span>
                     </div>
                     <div class="collapse-content">
-                        <ul>
-                            <li>Oi</li>
-                        </ul>
-                        <p>I've training Vue.JS for the last 3 months, acquiring enough skills to develop pretty
+                        <p class="font-bold text-primary">I've training Vue.JS for the last 3 months, acquiring enough skills to develop pretty
                             websites like that =)
                         </p>
                     </div>
@@ -29,10 +26,10 @@
                     <span class="badge badge-secondary badge-sm">Proficient</span>
                 </div>
                 <div class="collapse-content">
-                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                    <p class="text-primary font-bold">.NET is my favourite framework for back-end development. I've using it since the launch of Dotnet 6!</p>
                 </div>
             </div>
-            <div tabindex="0" class="collapsearrow bg-base-100 rounded-box hover:bg-secondary">
+                <div tabindex="0" class="collapse bg-base-100 rounded-box hover:bg-secondary">
                 <div class="skill-title">
                     <svg viewBox="0 0 128 128">
                         <path
@@ -43,7 +40,7 @@
                     <span class="badge badge-secondary badge-sm">Intermediary</span>
                 </div>
                 <div class="collapse-content">
-                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                    <p class="text-primary font-bold">I've using Tailwind for the past 3 months, and I'm in love with it's simplicity and it's power to make complex UI's!</p>
                 </div>
             </div>
 
