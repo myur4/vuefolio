@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     @apply flex flex-col max-w-7xl md:flex-row md:gap-4  md:mx-auto min-h-screen items-center justify-center;
 }
